@@ -18,6 +18,10 @@ class ProfesorController {
     def show(Profesor profesorInstance) {
         respond profesorInstance
     }
+    
+    def show_global(Profesor profesorInstance) {
+        respond profesorInstance
+    }
 
     def create() {
         respond new Profesor(params)

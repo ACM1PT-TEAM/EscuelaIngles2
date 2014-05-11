@@ -50,6 +50,7 @@
 	<label for="password">
 		<g:message code="alumno.password.label" default="Password" />
 		<span class="required-indicator">*</span>
+                <span class="mensaje"> Min 5, Max 15 caractéres</span>
 	</label>
 	<g:field type="password" name="password" maxlength="15" required="" value="${alumnoInstance?.password}"/>
 </div>

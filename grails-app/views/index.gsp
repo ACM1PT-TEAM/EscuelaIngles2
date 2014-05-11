@@ -178,7 +178,7 @@
 
 <!--Bottom-->
 <section id="bottom" class="main">
-    <!--Container-->
+    <!--Container
     <div class="container">
 
         <!--row-fluids-->
@@ -189,19 +189,19 @@
                 <h4>Direccion</h4>
                 <ul class="unstyled address">
                     <li>
-                        <i class="icon-home"></i><strong>Direccion:</strong> 1032 Wayback Lane, Wantagh<br>NY 11793
+                        <i class="icon-home"></i><strong>Direccion:</strong> Calle z ext 36 int 31 APR, Coyoacán <br> DF 4800
                     </li>
                     <li>
                         <i class="icon-envelope"></i>
-                        <strong>Email: </strong> support@email.com
+                        <strong>Email: </strong> acm1pt-support@email.com
                     </li>
                     <li>
                         <i class="icon-globe"></i>
-                        <strong>Website:</strong> www.domain.com
+                        <strong>Website:</strong> www.escuela_acm1pt.com
                     </li>
                     <li>
                         <i class="icon-phone"></i>
-                        <strong>Telefono:</strong> 631-409-3105
+                        <strong>Telefono:</strong> 55-29-44-84-53
                     </li>
                 </ul>
             </div>
@@ -212,14 +212,11 @@
                 <h4>Nosotros</h4>
                 <div>
                     <ul class="arrow">
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">About us</a></li>
                         <li><a href="#">Support</a></li>
                         <li><a href="#">Terms of Use</a></li>
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Copyright</a></li>
-                        <li><a href="#">We are hiring</a></li>
-                        <li><a href="#">Clients</a></li>
-                        <li><a href="#">Blog</a></li>
                     </ul>
                 </div>  
             </div>
@@ -245,8 +242,8 @@
 
             <div class="span6">
                 <ul class="social pull-right">
-                    <li><a href="#"><i class="icon-facebook"></i></a></li>
-                    <li><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/"><i class="icon-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com/"><i class="icon-twitter"></i></a></li>
                     <li><a href="#"><i class="icon-pinterest"></i></a></li>
                     <li><a href="#"><i class="icon-linkedin"></i></a></li>
                     <li><a href="#"><i class="icon-google-plus"></i></a></li>                       
@@ -267,7 +264,7 @@
     </div>
 </footer>
 <!--/Footer-->          
-                 
+                 -->
               
 <!-- Registro form -->
 <div class="modal hide fade in" id="registroForm" aria-hidden="false">
@@ -277,10 +274,10 @@
     </div>
     <!--Modal Body-->
     <div class="modal-body">
-        <form class="form-inline">
-            <ul>
-                <a><g:link controller="profesor" class="boton" action="create">Profesor</g:link></a>
-                <a><g:link controller="alumno" class="boton" action="create">Alumno</g:link></a>
+        <form class="form-inline" id="form-registro">
+            <ul class="menu-flotante">
+                <g:link controller="profesor" class="boton" action="create">Profesor</g:link>
+                <g:link controller="alumno" class="boton" action="create">Alumno</g:link>
             </ul>
         </form>
     </div>

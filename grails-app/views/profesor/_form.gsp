@@ -45,7 +45,7 @@
 <div class="fieldcontain ${hasErrors(bean: profesorInstance, field: 'password', 'error')} required">
 	<label for="password">
 		<g:message code="profesor.password.label" default="Password" />
-		<span class="required-indicator">*</span>
+                <span class="required-indicator">*</span ><span class="mensaje"> Min 5, Max 15 caractéres</span>
 	</label>
 	<g:field type="password" name="password" maxlength="15" required="" value="${profesorInstance?.password}"/>
 </div>
